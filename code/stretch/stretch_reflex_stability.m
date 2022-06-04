@@ -6,7 +6,7 @@ G_den=[B*J/k J B];
 int=[1 0];
 F_num=[tau 1/eta];
 F_den=[tau 1];
-%% 
+
 [expon_num_pade,expon_den_pade]  = pade(Td,4);
 
 syms s
