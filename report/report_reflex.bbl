@@ -16,5 +16,530 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{marro_controlli_2004}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MG}{%
+         family={Marro},
+         familyi={M\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {Italian}%
+    }
+    \list{publisher}{1}{%
+      {Zanichelli}%
+    }
+    \strng{namehash}{MG1}
+    \strng{fullhash}{MG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-88-08-08839-0 978-88-08-05575-0}
+    \field{note}{OCLC: 956197790}
+    \field{title}{Controlli automatici}
+    \list{location}{1}{%
+      {Bologna}%
+    }
+    \field{year}{2004}
+  \endentry
+
+  \entry{bernard1957introduction}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BC}{%
+         family={Bernard},
+         familyi={B\bibinitperiod},
+         given={Claude},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Courier Corporation}%
+    }
+    \strng{namehash}{BC1}
+    \strng{fullhash}{BC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{An introduction to the study of experimental medicine}
+    \field{volume}{400}
+    \field{year}{1957}
+  \endentry
+
+  \entry{cannon1939wisdom}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CWB}{%
+         family={Cannon},
+         familyi={C\bibinitperiod},
+         given={Walter\bibnamedelima Bradford},
+         giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Norton \& Co.}%
+    }
+    \strng{namehash}{CWB1}
+    \strng{fullhash}{CWB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The wisdom of the body}
+    \field{year}{1939}
+  \endentry
+
+  \entry{davies_adaptive_2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DKJ}{%
+         family={Davies},
+         familyi={D\bibinitperiod},
+         given={Kelvin\bibnamedelima J.A.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{DKJ1}
+    \strng{fullhash}{DKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.mam.2016.04.007
+    \endverb
+    \field{issn}{00982997}
+    \field{pages}{1\bibrangedash 7}
+    \field{title}{Adaptive homeostasis}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S0098299716300231
+    \endverb
+    \field{volume}{49}
+    \verb{file}
+    \verb Accepted Version:C\:\\Users\\bigba\\Zotero\\storage\\BVDXT2IT\\Davies
+    \verb  - 2016 - Adaptive homeostasis.pdf:application/pdf;Davies_2016_Adapti
+    \verb ve homeostasis.pdf:C\:\\Users\\bigba\\Zotero\\storage\\9F7XBM57\\Davi
+    \verb es_2016_Adaptive homeostasis.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Molecular Aspects of Medicine}
+    \field{month}{06}
+    \field{year}{2016}
+    \field{urlday}{06}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{sherwood_fisiologia_2008}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SL}{%
+         family={Sherwood},
+         familyi={S\bibinitperiod},
+         given={Lauralee},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {Italian}%
+    }
+    \list{publisher}{1}{%
+      {Zanichelli}%
+    }
+    \strng{namehash}{SL1}
+    \strng{fullhash}{SL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{isbn}{978-88-08-06727-2}
+    \field{note}{OCLC: 849240778}
+    \field{shorttitle}{Fisiologia umana}
+    \field{title}{Fisiologia umana: dalle cellule ai sistemi}
+    \list{location}{1}{%
+      {Bologna}%
+    }
+    \field{year}{2008}
+  \endentry
+
+  \entry{hill_heat_1938}{article}{}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={HIll},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{H1}
+    \strng{fullhash}{H1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The hope was recently expressed (Hill 1937, p. 116) that with the
+  development of a more accurate and rapid technique for muscle heat
+  measurement, a much more consistent picture might emerge of the energy
+  relations of muscles shortening (or lengthening) and doing positive (or
+  negative) work. This hope has been realized, and some astonishingly simple
+  and accurate relations have been found, relations, moreover, which (among
+  other things) determine the effect of load on speed of shortening, allow the
+  form of the isometric contraction to be predicted, and are the basis of the
+  so-called “visco-elasticity” of skeletal muscle. This paper is divided
+  into three parts. In Part I further developments of the technique are
+  described: everything has depended on the technique, so no apology is needed
+  for a rather full description of it and of the precautions necessary. In Part
+  II the results themselves are described and discussed. In Part III the
+  “visco-elastic” properties of active muscle are shown to be a consequence
+  of the properties described in Part II.%
+    }
+    \verb{doi}
+    \verb 10.1098/rspb.1938.0050
+    \endverb
+    \field{issn}{2053-9193}
+    \field{number}{843}
+    \field{pages}{136\bibrangedash 195}
+    \field{title}{The heat of shortening and the dynamic constants of muscle}
+    \verb{url}
+    \verb https://royalsocietypublishing.org/doi/10.1098/rspb.1938.0050
+    \endverb
+    \field{volume}{126}
+    \verb{file}
+    \verb 1938_The heat of shortening and the dynamic constants of muscle.pdf:C
+    \verb \:\\Users\\bigba\\Zotero\\storage\\TQ5CX8HR\\1938_The heat of shorten
+    \verb ing and the dynamic constants of muscle.pdf:application/pdf;Full Text
+    \verb :C\:\\Users\\bigba\\Zotero\\storage\\Y5W2P7WQ\\1938 - The heat of sho
+    \verb rtening and the dynamic constants o.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the Royal Society of London. Series B -
+  Biological Sciences}
+    \field{annotation}{%
+    Cited in [[MSSF]] course%
+    }
+    \field{month}{10}
+    \field{year}{1938}
+    \field{urlday}{30}
+    \field{urlmonth}{03}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{mains_model_1971}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MRE}{%
+         family={Mains},
+         familyi={M\bibinitperiod},
+         given={R.\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SJF}{%
+         family={Soechting},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{MRESJF1}
+    \strng{fullhash}{MRESJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1115/1.3426508
+    \endverb
+    \field{issn}{0022-0434, 1528-9028}
+    \field{number}{4}
+    \field{pages}{247\bibrangedash 251}
+    \field{title}{A {Model} for the {Neuromuscular} {Response} to {Sudden}
+  {Disturbances}}
+    \verb{url}
+    \verb https://asmedigitalcollection.asme.org/dynamicsystems/article/93/4/24
+    \verb 7/400749/A-Model-for-the-Neuromuscular-Response-to-Sudden
+    \endverb
+    \field{volume}{93}
+    \verb{file}
+    \verb Mains_Soechting_1971_A Model for the Neuromuscular Response to Sudden
+    \verb  Disturbances.pdf:C\:\\Users\\bigba\\Zotero\\storage\\M8GB2QH4\\Mains
+    \verb _Soechting_1971_A Model for the Neuromuscular Response to Sudden Dist
+    \verb urbances.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Journal of Dynamic Systems, Measurement, and Control}
+    \field{annotation}{%
+    Cited in [[MSSF]] course%
+    }
+    \field{month}{12}
+    \field{year}{1971}
+    \field{urlday}{30}
+    \field{urlmonth}{03}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{khoo_physiological_2018}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KMCK}{%
+         family={Khoo},
+         familyi={K\bibinitperiod},
+         given={Michael C.\bibnamedelima K.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {IEEE Press ; Wiley}%
+    }
+    \keyw{Biological control systems, Mathematical models, Physiology}
+    \strng{namehash}{KMCK1}
+    \strng{fullhash}{KMCK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{Second editon}
+    \field{isbn}{978-1-119-05533-4}
+    \field{series}{{IEEE} {Press} series in biomedical engineering}
+    \field{shorttitle}{Physiological control systems}
+    \field{title}{Physiological control systems: analysis, simulation, and
+  estimation}
+    \list{location}{1}{%
+      {Piscataway, NJ : Hoboken, New Jersey}%
+    }
+    \verb{file}
+    \verb Khoo - 2018 - Physiological control systems analysis, simulatio.pdf:C
+    \verb \:\\Users\\bigba\\Zotero\\storage\\6PG5WU26\\Khoo - 2018 - Physiologi
+    \verb cal control systems analysis, simulatio.pdf:application/pdf
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{soechting_evaluation_1971}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SJF}{%
+         family={Soechting},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SPA}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HRH}{%
+         family={Hawley},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima H.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PPR}{%
+         family={Paslay},
+         familyi={P\bibinitperiod},
+         given={P.\bibnamedelima R.},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Duffy},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{SJF+1}
+    \strng{fullhash}{SJFSPAHRHPPRDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In a companion paper to the present, a model is derived to predict human
+  reflex motion. This model contains a set of seven neuromuscular parameters
+  which are evaluated in the present paper on the basis of results obtained
+  from experiments performed on the human forearm. In these experiments,
+  forearm position is studied following an abrupt change in load and the
+  parameters are evaluated using an identification scheme which minimizes an
+  error function containing forearm position. The relative importance of the
+  various parameters is discussed as well as the relation between the proposed
+  model and previous models in this field.%
+    }
+    \verb{doi}
+    \verb 10.1115/1.3426504
+    \endverb
+    \field{issn}{0022-0434, 1528-9028}
+    \field{number}{4}
+    \field{pages}{221\bibrangedash 226}
+    \field{title}{Evaluation of {Neuromuscular} {Parameters} {Describing}
+  {Human} {Reflex} {Motion}}
+    \verb{url}
+    \verb https://asmedigitalcollection.asme.org/dynamicsystems/article/93/4/22
+    \verb 1/400748/Evaluation-of-Neuromuscular-Parameters-Describing
+    \endverb
+    \field{volume}{93}
+    \verb{file}
+    \verb Soechting et al_1971_Evaluation of Neuromuscular Parameters Describin
+    \verb g Human Reflex Motion.pdf:C\:\\Users\\bigba\\Zotero\\storage\\FTGI6IK
+    \verb B\\Soechting et al_1971_Evaluation of Neuromuscular Parameters Descri
+    \verb bing Human Reflex Motion.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Journal of Dynamic Systems, Measurement, and Control}
+    \field{month}{12}
+    \field{year}{1971}
+    \field{urlday}{07}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{kandel_principles_2021}{book}{}
+    \name{editor}{4}{}{%
+      {{hash=KER}{%
+         family={Kandel},
+         familyi={K\bibinitperiod},
+         given={Eric\bibnamedelima R.},
+         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Koester},
+         familyi={K\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mack},
+         familyi={M\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Siegelbaum},
+         familyi={S\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw Hill}%
+    }
+    \keyw{Neurology, Neurons}
+    \strng{namehash}{KER+1}
+    \strng{fullhash}{KERKJMSSS1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    "As in previous editions, the goal of this sixth edition of Principles of
+  Neural Science is to provide readers with insight into how genes, molecules,
+  neurons and the circuits they form give rise to mind"--%
+    }
+    \field{edition}{Sixth edition}
+    \field{isbn}{978-1-259-64223-4}
+    \field{title}{Principles of neural science}
+    \list{location}{1}{%
+      {New York}%
+    }
+    \field{year}{2021}
+  \endentry
+
+  \entry{stark_servoanalytic_1957}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SL}{%
+         family={Stark},
+         familyi={S\bibinitperiod},
+         given={Lawrence},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SPM}{%
+         family={Sherman},
+         familyi={S\bibinitperiod},
+         given={Philip\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{SLSPM1}
+    \strng{fullhash}{SLSPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1152/jn.1957.20.1.17
+    \endverb
+    \field{issn}{0022-3077, 1522-1598}
+    \field{number}{1}
+    \field{pages}{17\bibrangedash 26}
+    \field{title}{A {SERVOANALYTIC} {STUDY} {OF} {CONSENSUAL} {PUPIL} {REFLEX}
+  {TO} {LIGHT}}
+    \verb{url}
+    \verb https://www.physiology.org/doi/10.1152/jn.1957.20.1.17
+    \endverb
+    \field{volume}{20}
+    \verb{file}
+    \verb Stark_Sherman_1956.pdf:C\:\\Users\\bigba\\Zotero\\storage\\HXPFMMZC\\
+    \verb Stark_Sherman_1956.pdf:application/pdf;Stark_Sherman_1957_A SERVOANAL
+    \verb YTIC STUDY OF CONSENSUAL PUPIL REFLEX TO LIGHT.pdf:C\:\\Users\\bigba\
+    \verb \Zotero\\storage\\AZAJP4YQ\\Stark_Sherman_1957_A SERVOANALYTIC STUDY
+    \verb OF CONSENSUAL PUPIL REFLEX TO LIGHT.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Journal of Neurophysiology}
+    \field{month}{01}
+    \field{year}{1957}
+    \field{urlday}{04}
+    \field{urlmonth}{04}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{grasselli_sistemi_2008}{book}{}
+    \name{author}{3}{}{%
+      {{hash=GOM}{%
+         family={Grasselli},
+         familyi={G\bibinitperiod},
+         given={Osvaldo\bibnamedelima Maria},
+         giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Menini},
+         familyi={M\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Galeani},
+         familyi={G\bibinitperiod},
+         given={Sergio},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {Italian}%
+    }
+    \list{publisher}{1}{%
+      {Hoepli}%
+    }
+    \strng{namehash}{GOMMLGS1}
+    \strng{fullhash}{GOMMLGS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{isbn}{978-88-203-3703-2}
+    \field{note}{OCLC: 898636256}
+    \field{shorttitle}{Sistemi dinamici}
+    \field{title}{Sistemi dinamici: introduzione all'analisi e primi strumenti
+  di controllo}
+    \list{location}{1}{%
+      {Milano}%
+    }
+    \field{year}{2008}
+  \endentry
+
+  \entry{simulink}{article}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={MathWorks},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Simulink}
+    \verb{url}
+    \verb https://it.mathworks.com/products/simulink.html
+    \endverb
+    \field{year}{2022}
+  \endentry
+\enddatalist
 \endinput
