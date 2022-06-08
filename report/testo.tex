@@ -4,6 +4,32 @@
 
 \section{Background}
 
+
+\begin{figure*}[t!]
+	\centering
+	\begin{subfigure}{0.33\linewidth}
+		\centering
+		\footnotesize{\def\svgwidth{0.9\linewidth}
+			\input{modello_muscolo_schema.pdf_tex}}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.33\linewidth}
+		\centering
+		\tiny{\def\svgwidth{0.8\linewidth}
+			\input{fuso_modello.pdf_tex}}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.33\linewidth}
+		\centering
+		\footnotesize{\def\svgwidth{0.9\linewidth}
+			\input{modello_fuso_schema.pdf_tex}}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{Modello muscolare di Hill (a); relazione tra muscolo e fuso neuromuscolare (b); modello di fuso neuromuscolare di Soechting (c)}
+	\label{fig:fuso}
+\end{figure*}
+
+
 Un sistema di controllo è un apparato che consente di variare o mantenere constanti le grandezze di uscita in relazione ad un'evoluzione temporale delle grandezze di ingresso. Ovvero, un insieme di componenti interconnessi che lavorano per raggiungere una determinata risposta anche in presenza di stimoli esterni \cite{marro_controlli_2004}.  
 
 Si parla di regolazione, o controllo semplice, quando si richiede che l'uscita rimanga costante al variare dell'ingresso.
@@ -16,9 +42,9 @@ Il termine omeostasi fu introdotto nel 1865 da Claude Bernard per rappresentare 
 
 Quindi, l'estensione del concetto di omeostasi può essere visto come l'oscillazione nel tempo intorno ad un valore medio caratteristico di ogni variabile fisiologica. Tale oscillazione nel tempo può essere riferita a secondi, minuti, giorni, ore o anni a secondi di quale parametro si considera. Tuttavia, trascorriamo la maggior parte del tempo oscillando tra un valore massimo e minimo, attorno al valore medio, in un range considerato normale. Tale range è proprio ciò che viene definito omeostasi \cite{davies_adaptive_2016}. 
 
-
-
 \subsection{Riflesso neuromuscolare}
+
+
 
 Quando un muscolo intero viene stirato passivamente le fibre del fuso neuromuscolare si stirano e uamentnao la frequenza di scarica nelle fibre nervose afferenti. Le loro terminazioni sensnoriali terminano sulle lifbre intrafusai stirale e il neurore afferente stabilisce contatti sinaptici direttamente sul motoneurone $\alpha$ che innerva le fibre extrafusali dello stesso muscolo determinanone la contrazione. 
 
@@ -32,15 +58,10 @@ Tale riflesso coinvolge il muscolo stesso, il fuso neuromuscolare e i motoneuron
 
 Concentrandoci sull'arto superiore è possibile vedere il centro del riflesso nel midollo spinale, dove avviene la sinapsi tra le vie afferenti e i motoneruroni $\alpha$ per regolare il muscolo a seconda del disturbo indotto dal carico.
 
-Un diagramma a blocchi di tale sisitema di controllo è presente in \cref{fig:sistemamuscolo}.
 
-\begin{figure}[t!]
-	\centering
-	\footnotesize{\def\svgwidth{0.95\linewidth}
-	\input{blocchi_stretch.pdf_tex}}
-	\caption{Diagramma a blocchi del riflesso neuromuscolare}
-	\label{fig:sistemamuscolo}
-\end{figure}
+
+
+
 
 Affinchè sia possibile analizzare i singoli sistemi è necessario adottare un modello matematico descrittivo.
 
@@ -50,44 +71,22 @@ Partendo dalla descrizione geoemetrica in \cref{fig:avambraccio} il sisitema è 
 	M_{x}(t)-M(t)=J \ddot{\theta}
 \end{equation}
 
+
+
 \begin{figure*}[t!]
 	\centering
 	\begin{subfigure}{0.7\linewidth}
 		\centering
-	\includegraphics[width=0.95\linewidth]{figures/avambraccio_schema}\caption{}
+		\includegraphics[width=0.95\linewidth]{figures/avambraccio_schema}\caption{}
 	\end{subfigure}\hfill
-\begin{subfigure}{0.3\linewidth}
-	\centering
-\footnotesize{\def\svgwidth{0.9\linewidth}
-\input{avambraccio_modello.pdf_tex}}
-\caption{}
-\end{subfigure}
-	\caption{Rappresentazione schematica del test diagnostico per il riflesso da stiramento del braccio (a). Il carico viene applicato tramite una carrucola e va stimolare i recettori del fuso neuromuscolare che a loro volta vanno a stimolare i percorsi delle vie riflesse all'interno del canale spinale; gradi di libertà del sistema braccio-avambraccio (b) dove la coppia è esercitata dal muscolo}
-	\label{fig:avambraccio}
-\end{figure*}
-
-\begin{figure*}[h!]
-	\centering
-	\begin{subfigure}{0.33\linewidth}
+	\begin{subfigure}{0.3\linewidth}
 		\centering
 		\footnotesize{\def\svgwidth{0.9\linewidth}
-			\input{modello_muscolo_schema.pdf_tex}}
+			\input{avambraccio_modello.pdf_tex}}
 		\caption{}
-	\end{subfigure}\hfill
-\begin{subfigure}{0.33\linewidth}
-	\centering
-	\tiny{\def\svgwidth{0.8\linewidth}
-		\input{fuso_modello.pdf_tex}}
-	\caption{}
-\end{subfigure}\hfill
-	\begin{subfigure}{0.33\linewidth}
-	\centering
-	\footnotesize{\def\svgwidth{0.9\linewidth}
-		\input{modello_fuso_schema.pdf_tex}}
-	\caption{}
-\end{subfigure}\hfill
-	\caption{Modello muscolare di Hill (a); relazione tra muscolo e fuso neuromuscolare (b); modello di fuso neuromuscolare di Soechting (c)}
-	\label{fig:fuso}
+	\end{subfigure}
+	\caption{Rappresentazione schematica del test diagnostico per il riflesso da stiramento del braccio (a). Il carico viene applicato tramite una carrucola e va stimolare i recettori del fuso neuromuscolare che a loro volta vanno a stimolare i percorsi delle vie riflesse all'interno del canale spinale; gradi di libertà del sistema braccio-avambraccio (b) dove la coppia è esercitata dal muscolo}
+	\label{fig:avambraccio}
 \end{figure*}
 
 
@@ -121,44 +120,13 @@ E, nel dominio di Laplace, da:
 
 \subsubsection{Fuso neuromuscolare}
 
-Per il fuso muscolare viene adottare il modello di Soechting \cite{mains_model_1971} dove il fuso viene differenziato tra la parte interna, del nucleo, e la parte polare.
-
-La variabile di interesse è sempre la coordinata angolare e valgono le seguenti relazioni:
-
-\begin{equation}
-	\begin{gathered}
-		M_{s}(t)=K_{s s}\left(\theta-\theta_{2}\right) \\
-		M_{s}(t)=K_{s p}  \theta_{2}+B_{s} \dot{\theta}_{2}
-	\end{gathered}
-\end{equation}
-
-\subsubsection{Riflesso}
-
-Per il riflesso sappiamo che conta quanto accade a livello del fuso, ovvero avremo la risposta legata all'allungamento per il tramite di un certo guadagno:
-
-\begin{equation}
-	M_{0}(t)=\beta\left(\theta-\theta_{2}\right)
-\end{equation}
-
-Da cui si trova l'equazione del sistema:
-
-\begin{equation}
-	\small{\dot{M}_{0}(t)+\frac{M_{0}(t)}{\tau}=\beta\left(\dot{\theta}\left(t-T_{D}\right)+\frac{\theta\left(t-T_{D}\right)}{\tau \eta}\right)}
-\end{equation}
-
-Dove i due parametri, funzioni delle costanti concentrate, sono:
-
-\begin{equation}
-	\tau=\frac{B_{s}}{K_{s s}+K_{s p}} \quad \text { e } \eta=\frac{K_{s s}+K_{s p}}{K_{s p}}
-\end{equation}
-
-Passando nel dominio di Laplace possiamo ricavare la coppia agente come:
-
-\begin{equation}
-	M_{o}(s)=\beta\left(\frac{s \tau+s / \eta}{s \tau+s}\right) e^{-s T_{D}} \theta(s)
-\end{equation}
-
-Per l'implementazione in Simulink vengono considerati dei parametri fisiologici, in \cref{tab:parametriMuscolo} \cite{khoo_physiological_2018,soechting_evaluation_1971}. 
+\begin{figure}[t!]
+	\centering
+	\footnotesize{\def\svgwidth{0.95\linewidth}
+		\input{blocchi_stretch.pdf_tex}}
+	\caption{Diagramma a blocchi del riflesso neuromuscolare. Si possono distinguere il sotto-sistema muscolare (in blu) e il sotto-sistema del riflesso vero e proprio (in verde)}
+	\label{fig:sistemamuscolo}
+\end{figure}
 
 \begin{table}[t!]
 	\centering
@@ -186,7 +154,69 @@ Per l'implementazione in Simulink vengono considerati dei parametri fisiologici,
 \end{table}
 
 
+Per il fuso muscolare viene adottare il modello di Soechting \cite{mains_model_1971} dove il fuso viene differenziato tra la parte interna, del nucleo, e la parte polare.
+
+La variabile di interesse è sempre la coordinata angolare e valgono le seguenti relazioni:
+
+\begin{equation}
+	\begin{gathered}
+		M_{s}(t)=K_{s s}\left(\theta-\theta_{2}\right) \\
+		M_{s}(t)=K_{s p}  \theta_{2}+B_{s} \dot{\theta}_{2}
+	\end{gathered}
+\end{equation}
+
+\subsubsection{Riflesso}
+
+\begin{figure*}[t!]
+	\centering
+	\begin{subfigure}{0.6\linewidth}
+		\centering
+		\tiny{\def\svgwidth{0.95\linewidth}
+			\input{occhio_muscoli.pdf_tex}}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.4\linewidth}
+		\centering
+		\tiny{\def\svgwidth{0.95\linewidth}
+			\input{circuito_pupilla.pdf_tex}}
+		\caption{}
+	\end{subfigure}
+	\caption{Lo stroma dell'iride contiene uno strato di tessuto connettivo ricco di cellule muscolare lisce (a). Uno strato, a forma di anello, forma il muscolo costrittore, o sfintere pupillare, mentre nella faccia posteriore è presente il muscolo dilatatore della pupilla con le fibre disposte radialmente. Il sistema di controllo del riflesso pupillare (b) volto a restringere e dilatare la pupilla, tramite le vie superiori, a seconda del flusso luminoso incidente sulla retina}
+	\label{fig:pupilla}
+\end{figure*}
+
+Per il riflesso sappiamo che conta quanto accade a livello del fuso, ovvero avremo la risposta legata all'allungamento per il tramite di un certo guadagno:
+
+\begin{equation}
+	M_{0}(t)=\beta\left(\theta-\theta_{2}\right)
+\end{equation}
+
+Da cui si trova l'equazione del sistema:
+
+\begin{equation}
+	\small{\dot{M}_{0}(t)+\frac{M_{0}(t)}{\tau}=\beta\left(\dot{\theta}\left(t-T_{D}\right)+\frac{\theta\left(t-T_{D}\right)}{\tau \eta}\right)}
+\end{equation}
+
+Dove i due parametri, funzioni delle costanti concentrate, sono:
+
+\begin{equation}
+	\tau=\frac{B_{s}}{K_{s s}+K_{s p}} \quad \text { e } \eta=\frac{K_{s s}+K_{s p}}{K_{s p}}
+\end{equation}
+
+Passando nel dominio di Laplace possiamo ricavare la coppia agente come:
+
+\begin{equation}
+	M_{o}(s)=\beta\left(\frac{s \tau+s / \eta}{s \tau+s}\right) e^{-s T_{D}} \theta(s)
+\end{equation}
+
+Per l'implementazione in Simulink vengono considerati dei parametri fisiologici, in \cref{tab:parametriMuscolo} \cite{khoo_physiological_2018,soechting_evaluation_1971}. 
+
+
+
+
+
 \subsection{Riflesso fotomotore}
+
 
 Un altro riflesso di grande interesse clinico è il riflesso pupillare, noto anche come riflesso fotomotore. Tale riflesso controlla il diametro della pupilla in risposta all'intensitò della luce che arriva alla retina.
 
@@ -196,24 +226,6 @@ In condizioni fisiologiche, le pupille rispondono entrambe in maniera identica. 
 Ad esempio, una risposta diretta in una pupilla senza risposta consensuale nell'aktra indica un possibiile propblema nella connesione motoria della seconda. Oppure, è possibile avere perdite del riflesso diretto mentre rimane attiva la risposta consensuale. 
 
 \subsubsection{Modello di Stark}
-
-Per l'implementazione viene considerato il modello di Stark \cite{stark_servoanalytic_1957}. Tale modello intepreta il flusso di luce come l'intensità luminosa agente sull'area della pupilla e l'obiettivo del controllore (riflesso pupillare) è proprio quello di mantenere tale flusso costante. Se varia il flusso il sisitema nervoso si attiva per variare l'area della pupilla.
-
-Tale modello contiene molte non linearità ma, linerizzandolo intorno al punto di lavoro, permette di descrivere correttamente la risposta fisiologica \cite{khoo_physiological_2018}.
-
-Il diagramma a blocchi del sisitema è presente in \cref{fig:pupilla}. Si considera quindi un sisitema LTI con una funzione di trasferimento del terzo ordine in serie ad un ritardo con costante di tempo $\tau$. Ovvero la funzioen di trasferimento di anello :
-
-\begin{equation}
-	H(s)=\frac{K e^{-s D}}{(1+\tau s)^{3}}
-\end{equation}
-
-Dove il guadagno è dato dal prodotto del guadagno della funzione di traferimento del cambiamento d'area e del fattore linearizzato di insentità luminosa (rispetto al quale si è linearizzato il modello), ovvero:
-
-\begin{equation}
-	K=I_{\text {ref }} K_{1}
-\end{equation}
-
-I parametri del sisitema sono presenti in \cref{tab:pupilla}
 
 \begin{table}[t!]
 	\centering
@@ -233,32 +245,36 @@ I parametri del sisitema sono presenti in \cref{tab:pupilla}
 \end{table}
 
 
-\begin{figure*}[h!]
-	\centering
-	\begin{subfigure}{0.6\linewidth}
-\centering
-	\tiny{\def\svgwidth{0.95\linewidth}
-	\input{occhio_muscoli.pdf_tex}}
-\caption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}{0.4\linewidth}
-	\centering
-	\tiny{\def\svgwidth{0.95\linewidth}
-		\input{circuito_pupilla.pdf_tex}}
-	\caption{}
-\end{subfigure}
-	\caption{}
-	\label{fig:pupilla}
-\end{figure*}
 
-
-
-\begin{figure}[h!]
+\begin{figure}[b!]
 	\centering
 	\footnotesize{\def\svgwidth{0.95\linewidth}
-	\input{blocchi_pupillary.pdf_tex}}
-\caption{Diagramma a blocchi del riflesso pupillare linearizzato}
+		\input{blocchi_pupillary.pdf_tex}}
+	\caption{Diagramma a blocchi del riflesso pupillare linearizzato}
 \end{figure}
+
+Per l'implementazione viene considerato il modello di Stark \cite{stark_servoanalytic_1957}. Tale modello intepreta il flusso di luce come l'intensità luminosa agente sull'area della pupilla e l'obiettivo del controllore (riflesso pupillare) è proprio quello di mantenere tale flusso costante. Se varia il flusso il sisitema nervoso si attiva per variare l'area della pupilla.
+
+Tale modello contiene molte non linearità ma, linerizzandolo intorno al punto di lavoro, permette di descrivere correttamente la risposta fisiologica \cite{khoo_physiological_2018}.
+
+Il diagramma a blocchi del sisitema è presente in \cref{fig:pupilla}. Si considera quindi un sisitema LTI con una funzione di trasferimento del terzo ordine in serie ad un ritardo con costante di tempo $\tau$. Ovvero la funzioen di trasferimento di anello :
+
+\begin{equation}
+	H(s)=\frac{K e^{-s D}}{(1+\tau s)^{3}}
+\end{equation}
+
+Dove il guadagno è dato dal prodotto del guadagno della funzione di traferimento del cambiamento d'area e del fattore linearizzato di insentità luminosa (rispetto al quale si è linearizzato il modello), ovvero:
+
+\begin{equation}
+	K=I_{\text {ref }} K_{1}
+\end{equation}
+
+I parametri del sisitema sono presenti in \cref{tab:pupilla}
+
+
+
+
+
 
 
 \subsection{Stabilità}
@@ -296,7 +312,7 @@ E allora la funzione di trasferimento:
 	\centering
 \footnotesize{\def\svgwidth{0.95\linewidth}
 	\input{feedback.pdf_tex}}
-	\caption{Generico sistema a feedback negativo dove sono presenti la funzione di trasferimento diretta $G$ e la retroazione $H$ che riporta l'uscita in ingresso con segno invertito}
+	\caption{Generico sistema a feedback negativo dove sono presenti la funzione di trasferimento diretta $G(s)$ e la retroazione $H(s)$ che riporta l'uscita in ingresso con segno invertito}
 	\label{fig:sistema}
 \end{figure}
 
@@ -325,16 +341,132 @@ Inoltre, tale ambiente permette l’integrazione con il linguaggio Matlab e le r
 Tramite Simulink è possibile implementare i modelli considerati aggiungendo diverse features, quali delle dashboard per interagire con i parametri del sistema, utili ad analizzarne il comportamento e la stabilità.
 
 \section{Risultati}
-\textcolor{blue}{\lipsum[1-5]}
 
+Tali modelli sono stati implementati all'interno di Simulink analizzandone la stabilità e l'influenza dei diversi coefficienti, in particolare del guadagno.
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[width=0.95\linewidth]{simulink_stretch}
+	\caption{Implementazione Simulink del modello di riflesso muscolare. Il riflesso è implementato nella parte sinistra, le dashboard in basso a sinistra servono a variare i parametri \texttt{Td} e \texttt{beta} visualizzandone i valori. In particolare, i display diventano verdi/rossi a seconda che il guadagno sia tale da rendere il sistema stabile o meno. La parte di destra serve a salvare i risultati facendo in modo che nel nome del file siano presenti i valori dei parametri modificati.}
+	\label{fig:simulink_stretch}
+\end{figure*}
+
+\begin{figure}
+	\centering
+\includegraphics[width=0.95\linewidth]{../code/stretch/figs/result_gain_100_Td_0.02}
+\caption{text}
+\end{figure}
+
+\begin{figure*}
+	\begin{subfigure}{0.33\linewidth}
+	\centering
+\includegraphics[width=0.95\linewidth]{../code/stretch/figs/result_gain_50_Td_0.02}
+\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.33\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../code/stretch/figs/result_gain_150_Td_0.02}
+	\caption{}
+\end{subfigure}\hfill
+	\begin{subfigure}{0.33\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../code/stretch/figs/result_gain_250_Td_0.02}
+	\caption{}
+\end{subfigure}\hfill
+	\caption{text}
+\end{figure*}
+
+
+\begin{figure*}
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../code/stretch/figs/gainPlot}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../code/stretch/figs/TdPlot}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{text}
+\end{figure*}
+
+\begin{figure*}
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../code/stretch/figs/rootlocus}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../code/stretch/figs/margin}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{text}
+	\end{figure*}
 
 \subsection{Riflesso neuromuscolare}
+
+Il modello Simulink è rappresentato in \cref{fig:simulink_stretch} dove, oltre al modello già descritto nello schema a blocchi in \cref{fig:sistemamuscolo} sono presenti alcuni blocchi grafici per cambiare le variabili in gioco e per salvare i dati. In particolare, il blocco \texttt{fnc} viene descritto in appendice (\cref{sec:fcn}).
+
+
 
 
 
 \subsection{Riflesso pupillare}
 
+\begin{figure*}
+	\begin{subfigure}{0.33\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../code/pupillary/sine/figs/result_gain_0.16}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.33\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../code/pupillary/sine/figs/result_gain_1.8}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.33\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../code/pupillary/sine/figs/result_gain_2.2}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{text}
+\end{figure*}
+
+\begin{figure*}
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../code/pupillary/sine/figs/gainPlot}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../code/pupillary/step/figs/gainPlot}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{text}
+\end{figure*}
+
+\begin{figure*}
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../code/pupillary/sine/figs/rlocus}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../code/pupillary/sine/figs/margin}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{text}
+\end{figure*}
+
+
+
 \textcolor{blue}{CERCA QUALCOSA SULLA FREQUENZA DELL'HYPPUS}
+
+Per parlare di Hyppus \cite{turnbull_origins_2017} con frequenza tra 0.8 e 1 Hz.
 
 \section{Conclusioni}
 
@@ -356,6 +488,7 @@ Il materiale è disponibile alla repository online del progetto: \url{https://gi
 \section*{Appendice}
 
 \subsection{Blocco \texttt{fcn}}
+\label{sec:fcn}
 
 \subsection{Plot}
 

@@ -541,5 +541,66 @@
     \endverb
     \field{year}{2022}
   \endentry
+
+  \entry{turnbull_origins_2017}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TPRK}{%
+         family={Turnbull},
+         familyi={T\bibinitperiod},
+         given={Philip R.\bibnamedelima K.},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  K\bibinitperiod},
+      }}%
+      {{hash=IN}{%
+         family={Irani},
+         familyi={I\bibinitperiod},
+         given={Nouzar},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={Nicky},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PJR}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={John\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{TPRK+1}
+    \strng{fullhash}{TPRKINLNPJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1167/iovs.16-20785
+    \endverb
+    \field{issn}{1552-5783}
+    \field{number}{1}
+    \field{pages}{197}
+    \field{title}{Origins of {Pupillary} {Hippus} in the {Autonomic} {Nervous}
+  {System}}
+    \verb{url}
+    \verb http://iovs.arvojournals.org/article.aspx?doi=10.1167/iovs.16-20785
+    \endverb
+    \field{volume}{58}
+    \verb{file}
+    \verb Turnbull et al_2017_Origins of Pupillary Hippus in the Autonomic Nerv
+    \verb ous System.pdf:C\:\\Users\\bigba\\Zotero\\storage\\36RQ2ECP\\Turnbull
+    \verb  et al_2017_Origins of Pupillary Hippus in the Autonomic Nervous Syst
+    \verb em.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Investigative Opthalmology \& Visual Science}
+    \field{month}{01}
+    \field{year}{2017}
+    \field{urlday}{08}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
 \enddatalist
 \endinput
