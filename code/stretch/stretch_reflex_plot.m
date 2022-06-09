@@ -1,5 +1,6 @@
 % load results
-
+clear all
+close all
 %load result.mat
 
 % to plot results with gain variablity
@@ -45,6 +46,8 @@ for i=1:length(file_struct)
     % title with data info
     title(strTitle)
     ylim(Y_Lim)
+    xlabel('time [s]')
+    ylabel('\theta [rad]')
 end
 
 %% export figs
@@ -72,6 +75,8 @@ for i=1:length(file_struct)
 end
 legend(legend_string,'Location','northwest');
 ylim(Y_Lim)
+xlabel('time [s]')
+ylabel('\theta [rad]')
 % save figs
 exportgraphics(figure(1),strcat(path,'gainPlot.pdf'),'BackgroundColor','none','ContentType','vector');
 
@@ -93,5 +98,7 @@ for i=1:length(file_struct)
 end
 legend(legend_string,'Location','southwest');
 ylim([-0.7, 0.8])
+xlabel('time [s]')
+ylabel('\theta [rad]')
 % save figs
 exportgraphics(figure(1),strcat(path,'TdPlot.pdf'),'BackgroundColor','none','ContentType','vector');

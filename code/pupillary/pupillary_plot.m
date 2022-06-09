@@ -36,6 +36,8 @@ for i=1:length(file_struct)
     % title with data info
     title(strTitle)
     %ylim(Y_Lim)
+    xlabel('time [s]')
+    ylabel('Response')
 end
 
 %% export figs
@@ -50,7 +52,8 @@ close all
 figure;
 hold on
 legend_string=['Input'];
-Y_Lim=[-2,3];
+%Y_Lim=[-2,3];
+Y_Lim=[-8,8];
 scale_factor=0.8;
 plot(data{1}.Time,data{1}.input*scale_factor,'--')
 for i=1:length(file_struct)
@@ -64,10 +67,12 @@ for i=1:length(file_struct)
 end
 legend(legend_string,'Location','southwest');
 ylim(Y_Lim)
+xlabel('time [s]')
+ylabel('response')
 % save figs
 exportgraphics(figure(1),strcat(path,'gainPlot.pdf'),'BackgroundColor','none','ContentType','vector');
 
-%% frequency
+%% frequency (for sine wave)
 
 for i=1:length(file_struct)
     %figure;

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  8 JUN 2022 23:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  9 JUN 2022 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1294,44 +1294,44 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count494
 \@quotereset=\count495
 LaTeX Font Info:    Trying to load font information for T1+stix on input line 1
-50.
+52.
 (c:/texlive/2021/texmf-dist/tex/latex/stix/t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
 ) (./report_reflex.aux)
 \openout1 = `report_reflex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 150.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 152.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-150.
+152.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 152.
 LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
-150.
+152.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Info: Redefining \it@ocap on input line 150.
-LaTeX Info: Redefining \it@ccap on input line 150.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Info: Redefining \it@ocap on input line 152.
+LaTeX Info: Redefining \it@ccap on input line 152.
 
 (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1372,9 +1372,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 150.
+or `english'. on input line 152.
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 150.
+alian.trsl' found. on input line 152.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
@@ -1428,7 +1428,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 \c@lstlisting=\count502
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 150.
+(lastpage)             ! on input line 152.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (c:/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1464,11 +1464,17 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report_reflex.bbl' found.
 
 (./report_reflex.bbl)
-Package biblatex Info: Reference section=0 on input line 150.
-Package biblatex Info: Reference segment=0 on input line 150.
+Package biblatex Info: Reference section=0 on input line 152.
+Package biblatex Info: Reference segment=0 on input line 152.
  (./testo.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 4846) in paragraph at lines 13--14
+[]\T1/stix/m/n/12 Nel seguente re-port ven-gono propositi due
+ []
 
+
+Underfull \hbox (badness 7468) in paragraph at lines 13--14
+\T1/stix/m/n/12 dif-fer-enti mod-elli e la loro im-ple-men-tazione
+ []
 
 (./figures//modello_muscolo_schema.pdf_tex
 <figures//modello_muscolo_schema.pdf, id=4, page=1, 580.34296pt x 351.18881pt>
@@ -1542,7 +1548,7 @@ Package pdftex.def Info: figures//modello_fuso_schema.pdf , page1 used on input
 <figures//logo.png, id=7, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 37.
+Package pdftex.def Info: figures//logo.png  used on input line 46.
 (pdftex.def)             Requested size: 44.82474pt x 45.0pt.
 
 
@@ -1557,45 +1563,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./figures//logo.png>]
-Underfull \hbox (badness 2229) in paragraph at lines 41--42
+Underfull \hbox (badness 2229) in paragraph at lines 53--54
 []\T1/stix/m/n/12 Il ter-mine omeostasi fu in-trodotto nel 1865
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 \T1/stix/m/n/12 da Claude Bernard per rap-p-re-sentare come
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 \T1/stix/m/n/12 l'organismo cer-casse di man-tenere costante
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 41--42
+Underfull \hbox (badness 4144) in paragraph at lines 53--54
 \T1/stix/m/n/12 con-dizioni che pos-sono con-tin-u-a-mente vari-are
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 41--42
+Underfull \hbox (badness 1342) in paragraph at lines 53--54
 \T1/stix/m/n/12 sis-temi di con-trollo fi-si-o-logici che coin-vol-gono
  []
 
-<figures/avambraccio_schema.pdf, id=17, 300.6964pt x 79.56265pt>
-File: figures/avambraccio_schema.pdf Graphic file (type pdf)
-<use figures/avambraccio_schema.pdf>
-Package pdftex.def Info: figures/avambraccio_schema.pdf  used on input line 80.
 
-(pdftex.def)             Requested size: 330.05714pt x 87.33344pt.
-(./figures//avambraccio_modello.pdf_tex
-<figures//avambraccio_modello.pdf, id=18, page=1, 134.63611pt x 73.30586pt>
-File: figures//avambraccio_modello.pdf Graphic file (type pdf)
-<use figures//avambraccio_modello.pdf, page 1>
-Package pdftex.def Info: figures//avambraccio_modello.pdf , page1 used on input
- line 56.
-(pdftex.def)             Requested size: 134.00963pt x 72.97011pt.
-)
-Underfull \vbox (badness 1048) has occurred while \output is active []
+Underfull \vbox (badness 1158) has occurred while \output is active []
 
 
 
@@ -1615,11 +1608,20 @@ pdfTeX warning: pdflatex.exe (file ./figures//fuso_modello.pdf): PDF inclusion:
 pdfTeX warning: pdflatex.exe (file ./figures//modello_fuso_schema.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 5726) in paragraph at lines 109--110
-[]\T1/stix/m/n/12 Quindi può es-sere de-scritto dalla seguente
- []
+<figures/avambraccio_schema.pdf, id=38, 300.6964pt x 79.56265pt>
+File: figures/avambraccio_schema.pdf Graphic file (type pdf)
+<use figures/avambraccio_schema.pdf>
+Package pdftex.def Info: figures/avambraccio_schema.pdf  used on input line 88.
 
-(./figures//blocchi_stretch.pdf_tex
+(pdftex.def)             Requested size: 330.05714pt x 87.33344pt.
+ (./figures//avambraccio_modello.pdf_tex
+<figures//avambraccio_modello.pdf, id=39, page=1, 134.63611pt x 73.30586pt>
+File: figures//avambraccio_modello.pdf Graphic file (type pdf)
+<use figures//avambraccio_modello.pdf, page 1>
+Package pdftex.def Info: figures//avambraccio_modello.pdf , page1 used on input
+ line 56.
+(pdftex.def)             Requested size: 134.00963pt x 72.97011pt.
+) (./figures//blocchi_stretch.pdf_tex
 <figures//blocchi_stretch.pdf, id=40, page=1, 400.8253pt x 244.93506pt>
 File: figures//blocchi_stretch.pdf Graphic file (type pdf)
 <use figures//blocchi_stretch.pdf, page 1>
@@ -1627,14 +1629,13 @@ Package pdftex.def Info: figures//blocchi_stretch.pdf , page1 used on input lin
 e 56.
 (pdftex.def)             Requested size: 231.00615pt x 141.16545pt.
 
-
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 60.
 
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-37.
+45.
  (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1654,7 +1655,18 @@ ne 56.
 (pdftex.def)             Requested size: 188.60204pt x 81.72331pt.
 )
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 197.
+LaTeX Font Warning: Command \small invalid in math mode on input line 205.
+
+LaTeX Font Info:    Calculating math sizes for size <> on input line 206.
+
+Underfull \hbox (badness 3229) in paragraph at lines 220--221
+[]\T1/stix/m/n/12 Per l'implementazione in Simulink ven-gono
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 231--232
+[]\T1/stix/m/n/12 Il nervo ot-tico cos-ti-tu-isce la via af-fer-ente in
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1664,7 +1676,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3 <./figures/avambraccio_schema.pdf> <./figures//avambraccio_modello.pdf
+[3] (./figures//blocchi_pupillary.pdf_tex
+<figures//blocchi_pupillary.pdf, id=49, page=1, 419.11853pt x 179.24063pt>
+File: figures//blocchi_pupillary.pdf Graphic file (type pdf)
+<use figures//blocchi_pupillary.pdf, page 1>
+Package pdftex.def Info: figures//blocchi_pupillary.pdf , page1 used on input l
+ine 56.
+(pdftex.def)             Requested size: 231.00615pt x 98.79324pt.
+)
+Underfull \hbox (badness 3977) in paragraph at lines 277--278
+[]\T1/stix/m/n/12 Dove il guadagno è dato dal prodotto del
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4 <./figures/avambraccio_schema.pdf> <./figures//avambraccio_modello.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//avambraccio_modello.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
@@ -1672,26 +1704,36 @@ lusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures//blocchi_stretch.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->]
-LaTeX Font Info:    Calculating math sizes for size <> on input line 198.
-
-Underfull \hbox (badness 3229) in paragraph at lines 212--213
-[]\T1/stix/m/n/12 Per l'implementazione in Simulink ven-gono
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 223--224
-[]\T1/stix/m/n/12 il nervo ot-tico cos-ti-tu-isce la via af-fer-ente in
- []
-
-(./figures//blocchi_pupillary.pdf_tex
-<figures//blocchi_pupillary.pdf, id=189, page=1, 419.11853pt x 179.24063pt>
-File: figures//blocchi_pupillary.pdf Graphic file (type pdf)
-<use figures//blocchi_pupillary.pdf, page 1>
-Package pdftex.def Info: figures//blocchi_pupillary.pdf , page1 used on input l
-ine 56.
-(pdftex.def)             Requested size: 231.00615pt x 98.79324pt.
+>] (./figures//feedback.pdf_tex
+<figures//feedback.pdf, id=193, page=1, 306.37851pt x 132.48836pt>
+File: figures//feedback.pdf Graphic file (type pdf)
+<use figures//feedback.pdf, page 1>
+Package pdftex.def Info: figures//feedback.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 231.00615pt x 99.89568pt.
 )
+Underfull \hbox (badness 2359) in paragraph at lines 327--328
+[]\T1/stix/m/n/12 Considerando che $\LS1/stix/m/it/12 G\LS1/stix/m/n/12 .\LS1/s
+tix/m/it/12 s\LS1/stix/m/n/12 /\LS1/stix/m/it/12 H\LS1/stix/m/n/12 .\LS1/stix/m
+/it/12 s\LS1/stix/m/n/12 /$ \T1/stix/m/n/12 è una fun-zione
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 327--328
+\T1/stix/m/n/12 razionale fratta con guadagno $\LS1/stix/m/it/12 K$ \T1/stix/m/
+n/12 (pos-i-tivo per
+ []
+
+<figures//simulink_stretch.pdf, id=194, 794.97pt x 295.70273pt>
+File: figures//simulink_stretch.pdf Graphic file (type pdf)
+<use figures//simulink_stretch.pdf>
+Package pdftex.def Info: figures//simulink_stretch.pdf  used on input line 342.
+
+(pdftex.def)             Requested size: 471.51228pt x 175.39256pt.
+
+Underfull \hbox (badness 2384) in paragraph at lines 349--350
+\T1/stix/m/n/12 su un am-bi-ente di model-lazione che per-me-tte
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1700,7 +1742,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4 <./figures//occhio_muscoli.pdf> <./figures//circuito_pupilla.pdf
+[5 <./figures//occhio_muscoli.pdf> <./figures//circuito_pupilla.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//circuito_pupilla.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -1708,157 +1750,106 @@ ion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures//blocchi_pupillary.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
+> <./figures//feedback.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//feedback.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 3977) in paragraph at lines 266--267
-[]\T1/stix/m/n/12 Dove il guadagno è dato dal prodotto del
- []
-
-(./figures//feedback.pdf_tex
-<figures//feedback.pdf, id=224, page=1, 306.37851pt x 132.48836pt>
-File: figures//feedback.pdf Graphic file (type pdf)
-<use figures//feedback.pdf, page 1>
-Package pdftex.def Info: figures//feedback.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 231.00615pt x 99.89568pt.
-)
-Underfull \hbox (badness 2359) in paragraph at lines 320--321
-[]\T1/stix/m/n/12 Considerando che $\LS1/stix/m/it/12 G\LS1/stix/m/n/12 .\LS1/s
-tix/m/it/12 s\LS1/stix/m/n/12 /\LS1/stix/m/it/12 H\LS1/stix/m/n/12 .\LS1/stix/m
-/it/12 s\LS1/stix/m/n/12 /$ \T1/stix/m/n/12 è una fun-zione
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 320--321
-\T1/stix/m/n/12 razionale fratta con guadagno $\LS1/stix/m/it/12 K$ \T1/stix/m/
-n/12 (pos-i-tivo per
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 337--338
-\T1/stix/m/n/12 su un am-bi-ente di model-lazione che per-me-tte
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 339--340
+Underfull \hbox (badness 1087) in paragraph at lines 351--352
 []\T1/stix/m/n/12 Inoltre, tale am-bi-ente per-me-tte l'integrazione
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 341--342
+Underfull \hbox (badness 1231) in paragraph at lines 353--354
 []\T1/stix/m/n/12 Tramite Simulink è pos-si-bile im-ple-mentare i
  []
 
-<figures//simulink_stretch.pdf, id=225, 794.97pt x 295.70273pt>
-File: figures//simulink_stretch.pdf Graphic file (type pdf)
-<use figures//simulink_stretch.pdf>
-Package pdftex.def Info: figures//simulink_stretch.pdf  used on input line 349.
-
-(pdftex.def)             Requested size: 471.51228pt x 175.39256pt.
-<../code/stretch/figs/result_gain_100_Td_0.02.pdf, id=226, 349.305pt x 287.0725
-pt>
+<../code/stretch/figs/result_gain_100_Td_0.02.pdf, id=233, 363.3575pt x 304.136
+25pt>
 File: ../code/stretch/figs/result_gain_100_Td_0.02.pdf Graphic file (type pdf)
 <use ../code/stretch/figs/result_gain_100_Td_0.02.pdf>
 Package pdftex.def Info: ../code/stretch/figs/result_gain_100_Td_0.02.pdf  used
- on input line 356.
-(pdftex.def)             Requested size: 231.00615pt x 189.84952pt.
-<../code/stretch/figs/result_gain_50_Td_0.02.pdf, id=227, 349.305pt x 287.0725p
-t>
+ on input line 363.
+(pdftex.def)             Requested size: 231.00615pt x 193.36104pt.
+<../code/stretch/figs/result_gain_50_Td_0.02.pdf, id=234, 363.3575pt x 304.1362
+5pt>
 File: ../code/stretch/figs/result_gain_50_Td_0.02.pdf Graphic file (type pdf)
 <use ../code/stretch/figs/result_gain_50_Td_0.02.pdf>
 Package pdftex.def Info: ../code/stretch/figs/result_gain_50_Td_0.02.pdf  used 
-on input line 363.
-(pdftex.def)             Requested size: 155.5999pt x 127.88045pt.
-<../code/stretch/figs/result_gain_150_Td_0.02.pdf, id=228, 349.305pt x 287.0725
-pt>
+on input line 371.
+(pdftex.def)             Requested size: 155.5999pt x 130.24234pt.
+<../code/stretch/figs/result_gain_150_Td_0.02.pdf, id=235, 363.3575pt x 304.136
+25pt>
 File: ../code/stretch/figs/result_gain_150_Td_0.02.pdf Graphic file (type pdf)
 <use ../code/stretch/figs/result_gain_150_Td_0.02.pdf>
 Package pdftex.def Info: ../code/stretch/figs/result_gain_150_Td_0.02.pdf  used
- on input line 368.
-(pdftex.def)             Requested size: 155.5999pt x 127.88045pt.
-<../code/stretch/figs/result_gain_250_Td_0.02.pdf, id=229, 349.305pt x 287.0725
-pt>
+ on input line 376.
+(pdftex.def)             Requested size: 155.5999pt x 130.24234pt.
+<../code/stretch/figs/result_gain_250_Td_0.02.pdf, id=236, 363.3575pt x 304.136
+25pt>
 File: ../code/stretch/figs/result_gain_250_Td_0.02.pdf Graphic file (type pdf)
 <use ../code/stretch/figs/result_gain_250_Td_0.02.pdf>
 Package pdftex.def Info: ../code/stretch/figs/result_gain_250_Td_0.02.pdf  used
- on input line 373.
-(pdftex.def)             Requested size: 155.5999pt x 127.88045pt.
-<../code/stretch/figs/gainPlot.pdf, id=230, 349.305pt x 277.035pt>
+ on input line 381.
+(pdftex.def)             Requested size: 155.5999pt x 130.24234pt.
+<../code/stretch/figs/gainPlot.pdf, id=237, 363.3575pt x 294.09875pt>
 File: ../code/stretch/figs/gainPlot.pdf Graphic file (type pdf)
 <use ../code/stretch/figs/gainPlot.pdf>
 Package pdftex.def Info: ../code/stretch/figs/gainPlot.pdf  used on input line 
-383.
-(pdftex.def)             Requested size: 223.34712pt x 177.13693pt.
-<../code/stretch/figs/TdPlot.pdf, id=231, 349.305pt x 277.035pt>
+388.
+(pdftex.def)             Requested size: 210.9419pt x 170.73894pt.
+<../code/stretch/figs/TdPlot.pdf, id=238, 363.3575pt x 294.09875pt>
 File: ../code/stretch/figs/TdPlot.pdf Graphic file (type pdf)
 <use ../code/stretch/figs/TdPlot.pdf>
-Package pdftex.def Info: ../code/stretch/figs/TdPlot.pdf  used on input line 38
-8.
-(pdftex.def)             Requested size: 223.34712pt x 177.13693pt.
-<../code/stretch/figs/rootlocus.pdf, id=232, 374.39874pt x 294.09875pt>
+Package pdftex.def Info: ../code/stretch/figs/TdPlot.pdf  used on input line 39
+4.
+(pdftex.def)             Requested size: 210.9419pt x 170.73894pt.
+<../code/stretch/figs/rootlocus.pdf, id=239, 374.39874pt x 294.09875pt>
 File: ../code/stretch/figs/rootlocus.pdf Graphic file (type pdf)
 <use ../code/stretch/figs/rootlocus.pdf>
 Package pdftex.def Info: ../code/stretch/figs/rootlocus.pdf  used on input line
- 397.
-(pdftex.def)             Requested size: 223.34712pt x 175.44641pt.
-<../code/stretch/figs/margin.pdf, id=233, 364.36125pt x 308.15125pt>
+ 402.
+(pdftex.def)             Requested size: 210.9419pt x 165.69939pt.
+<../code/stretch/figs/margin.pdf, id=240, 364.36125pt x 308.15125pt>
 File: ../code/stretch/figs/margin.pdf Graphic file (type pdf)
 <use ../code/stretch/figs/margin.pdf>
 Package pdftex.def Info: ../code/stretch/figs/margin.pdf  used on input line 40
-2.
-(pdftex.def)             Requested size: 223.34712pt x 188.88887pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5 <./figures//feedback.pdf>]
-<../code/pupillary/sine/figs/result_gain_0.16.pdf, id=242, 353.32pt x 287.0725p
-t>
+8.
+(pdftex.def)             Requested size: 210.9419pt x 178.3987pt.
+<figures/simulink_pupillary.pdf, id=241, 721.69624pt x 220.825pt>
+File: figures/simulink_pupillary.pdf Graphic file (type pdf)
+<use figures/simulink_pupillary.pdf>
+Package pdftex.def Info: figures/simulink_pupillary.pdf  used on input line 419
+.
+(pdftex.def)             Requested size: 397.06577pt x 121.49455pt.
+<../code/pupillary/sine/figs/result_gain_0.16.pdf, id=242, 368.37625pt x 303.13
+25pt>
 File: ../code/pupillary/sine/figs/result_gain_0.16.pdf Graphic file (type pdf)
 <use ../code/pupillary/sine/figs/result_gain_0.16.pdf>
 Package pdftex.def Info: ../code/pupillary/sine/figs/result_gain_0.16.pdf  used
- on input line 421.
-(pdftex.def)             Requested size: 155.5999pt x 126.42618pt.
-<../code/pupillary/sine/figs/result_gain_1.8.pdf, id=243, 353.32pt x 287.0725pt
->
+ on input line 427.
+(pdftex.def)             Requested size: 155.5999pt x 128.04097pt.
+<../code/pupillary/sine/figs/result_gain_1.8.pdf, id=243, 368.37625pt x 303.132
+5pt>
 File: ../code/pupillary/sine/figs/result_gain_1.8.pdf Graphic file (type pdf)
 <use ../code/pupillary/sine/figs/result_gain_1.8.pdf>
 Package pdftex.def Info: ../code/pupillary/sine/figs/result_gain_1.8.pdf  used 
-on input line 426.
-(pdftex.def)             Requested size: 155.5999pt x 126.42618pt.
-<../code/pupillary/sine/figs/result_gain_2.2.pdf, id=244, 351.3125pt x 287.0725
-pt>
+on input line 432.
+(pdftex.def)             Requested size: 155.5999pt x 128.04097pt.
+<../code/pupillary/sine/figs/result_gain_2.2.pdf, id=244, 365.365pt x 303.1325p
+t>
 File: ../code/pupillary/sine/figs/result_gain_2.2.pdf Graphic file (type pdf)
 <use ../code/pupillary/sine/figs/result_gain_2.2.pdf>
 Package pdftex.def Info: ../code/pupillary/sine/figs/result_gain_2.2.pdf  used 
-on input line 431.
-(pdftex.def)             Requested size: 155.5999pt x 127.14893pt.
-<../code/pupillary/sine/figs/gainPlot.pdf, id=245, 345.29pt x 277.035pt>
-File: ../code/pupillary/sine/figs/gainPlot.pdf Graphic file (type pdf)
-<use ../code/pupillary/sine/figs/gainPlot.pdf>
-Package pdftex.def Info: ../code/pupillary/sine/figs/gainPlot.pdf  used on inpu
-t line 440.
-(pdftex.def)             Requested size: 223.34712pt x 179.1998pt.
-<../code/pupillary/step/figs/gainPlot.pdf, id=246, 353.32pt x 277.035pt>
-File: ../code/pupillary/step/figs/gainPlot.pdf Graphic file (type pdf)
-<use ../code/pupillary/step/figs/gainPlot.pdf>
-Package pdftex.def Info: ../code/pupillary/step/figs/gainPlot.pdf  used on inpu
-t line 445.
-(pdftex.def)             Requested size: 223.34712pt x 175.12477pt.
-<../code/pupillary/sine/figs/rlocus.pdf, id=247, 366.36874pt x 294.09875pt>
-File: ../code/pupillary/sine/figs/rlocus.pdf Graphic file (type pdf)
-<use ../code/pupillary/sine/figs/rlocus.pdf>
-Package pdftex.def Info: ../code/pupillary/sine/figs/rlocus.pdf  used on input 
-line 454.
-(pdftex.def)             Requested size: 223.34712pt x 179.29227pt.
-<../code/pupillary/sine/figs/margin.pdf, id=248, 364.36125pt x 308.15125pt>
-File: ../code/pupillary/sine/figs/margin.pdf Graphic file (type pdf)
-<use ../code/pupillary/sine/figs/margin.pdf>
-Package pdftex.def Info: ../code/pupillary/sine/figs/margin.pdf  used on input 
-line 459.
-(pdftex.def)             Requested size: 223.34712pt x 188.88887pt.
+on input line 437.
+(pdftex.def)             Requested size: 155.5999pt x 129.09557pt.
+LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
+450.
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
+File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
+)
+Underfull \vbox (badness 3942) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1871,6 +1862,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6 <./figures//simulink_stretch.pdf> <../code/stretch/figs/result_gain_100_Td_0
 .02.pdf>]
 
+LaTeX Warning: Text page 7 contains only floats.
+
+
+Overfull \vbox (21.96199pt too high) has occurred while \output is active []
+
+
+
+LaTeX Warning: Text page 7 contains only floats.
+
+
+Overfull \vbox (21.96199pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (5.962pt too high) has occurred while \output is active []
+
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -1882,6 +1890,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 lt_gain_150_Td_0.02.pdf> <../code/stretch/figs/result_gain_250_Td_0.02.pdf> <..
 /code/stretch/figs/gainPlot.pdf> <../code/stretch/figs/TdPlot.pdf> <../code/str
 etch/figs/rootlocus.pdf> <../code/stretch/figs/margin.pdf>]
+Underfull \hbox (badness 5802) in paragraph at lines 452--453
+[]\T1/stix/m/n/12 Tale sot-tosmorza-mento non è pre-sente per
+ []
+
+
+LaTeX Warning: Reference `labelfig:simulinkpupillary' on page 1 undefined on in
+put line 466.
+
+<../code/pupillary/sine/figs/rlocus.pdf, id=390, 366.36874pt x 294.09875pt>
+File: ../code/pupillary/sine/figs/rlocus.pdf Graphic file (type pdf)
+<use ../code/pupillary/sine/figs/rlocus.pdf>
+Package pdftex.def Info: ../code/pupillary/sine/figs/rlocus.pdf  used on input 
+line 474.
+(pdftex.def)             Requested size: 223.34712pt x 179.29227pt.
+<../code/pupillary/sine/figs/margin.pdf, id=391, 364.36125pt x 308.15125pt>
+File: ../code/pupillary/sine/figs/margin.pdf Graphic file (type pdf)
+<use ../code/pupillary/sine/figs/margin.pdf>
+Package pdftex.def Info: ../code/pupillary/sine/figs/margin.pdf  used on input 
+line 479.
+(pdftex.def)             Requested size: 223.34712pt x 188.88887pt.
+<../code/pupillary/sine/figs/gainPlot.pdf, id=392, 357.335pt x 294.09875pt>
+File: ../code/pupillary/sine/figs/gainPlot.pdf Graphic file (type pdf)
+<use ../code/pupillary/sine/figs/gainPlot.pdf>
+Package pdftex.def Info: ../code/pupillary/sine/figs/gainPlot.pdf  used on inpu
+t line 489.
+(pdftex.def)             Requested size: 223.34712pt x 183.82472pt.
+<../code/pupillary/step/figs/gainPlot.pdf, id=393, 366.36874pt x 294.09875pt>
+File: ../code/pupillary/step/figs/gainPlot.pdf Graphic file (type pdf)
+<use ../code/pupillary/step/figs/gainPlot.pdf>
+Package pdftex.def Info: ../code/pupillary/step/figs/gainPlot.pdf  used on inpu
+t line 495.
+(pdftex.def)             Requested size: 223.34712pt x 179.29227pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1890,50 +1930,68 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8 <../code/pupillary/sine/figs/result_gain_0.16.pdf> <../code/pupillary/sine/f
-igs/result_gain_1.8.pdf> <../code/pupillary/sine/figs/result_gain_2.2.pdf> <../
-code/pupillary/sine/figs/gainPlot.pdf> <../code/pupillary/step/figs/gainPlot.pd
-f> <../code/pupillary/sine/figs/rlocus.pdf> <../code/pupillary/sine/figs/margin
-.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
+[8 <./figures/simulink_pupillary.pdf> <../code/pupillary/sine/figs/result_gain_
+0.16.pdf> <../code/pupillary/sine/figs/result_gain_1.8.pdf> <../code/pupillary/
+sine/figs/result_gain_2.2.pdf>]
+Underfull \vbox (badness 1681) has occurred while \output is active []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 513--514
+[]\T1/stix/m/n/12 Analizzando la fre-quenza di os-cil-lazione ($\LS1/stix/m/n/1
+2 Ë
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 513--514
+\T1/stix/m/n/12 ca-mente in-di-cati in let-ter-atura per il fenomeno
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9 <../code/pupillary/sine/figs/rlocus.pdf> <../code/pupillary/sine/figs/margin
+.pdf> <../code/pupillary/sine/figs/gainPlot.pdf> <../code/pupillary/step/figs/g
+ainPlot.pdf>]
+Underfull \hbox (badness 5802) in paragraph at lines 521--522
+[]\T1/stix/m/n/12 Per sot-to-porre i mec-ca-n-ismi fi-si-o-logico ad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
-[]\T1/stix/m/n/12 Giovanni Marro. \T1/stix/m/it/12 Con-trolli au-to-matici\T1/s
-tix/m/n/12 .
+Underfull \hbox (badness 2351) in paragraph at lines 535--535
+[]\T1/stix/m/n/10 Lauralee Sher-wood. \T1/stix/m/it/10 Fi-si-olo-gia umana: dal
+le cel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
-\T1/stix/m/n/12 Ital-ian. OCLC: 956197790. Bologna:
+Underfull \hbox (badness 1603) in paragraph at lines 535--535
+\T1/stix/m/n/10 Galeani. \T1/stix/m/it/10 Sis-temi di-nam-ici: in-tro-duzione a
+ll'analisi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
-[]\T1/stix/m/n/12 Lauralee Sher-wood. \T1/stix/m/it/12 Fi-si-olo-gia umana:
- []
-
-
-Underfull \hbox (badness 4048) in paragraph at lines 483--483
-\T1/stix/m/it/12 dalle cel-lule ai sis-temi\T1/stix/m/n/12 . Ital-ian. OCLC:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
-\T1/stix/m/n/12 849240778. Bologna: Zanichelli, 2008.
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 483--483
-\T1/stix/m/it/12 Sys-tems, Mea-sure-ment, and Con-trol \T1/stix/m/n/12 93.4
+Underfull \hbox (badness 7308) in paragraph at lines 535--535
+\T1/stix/m/it/10 e primi stru-menti di con-trollo\T1/stix/m/n/10 . Ital-ian. OC
+LC:
  []
 
 
@@ -1944,51 +2002,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9]
-Underfull \hbox (badness 1490) in paragraph at lines 483--483
-\T1/stix/m/it/12 Sys-tems, Mea-sure-ment, and Con-trol \T1/stix/m/n/12 93.4
- []
-
-
-Underfull \hbox (badness 1478) in paragraph at lines 483--483
-\T1/cmtt/m/n/12 93 / 4 / 221 / 400748 / Evaluation -[]
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 483--483
-\T1/cmtt/m/n/12 of -[] Neuromuscular -[] Parameters -[]
- []
-
-
-Underfull \hbox (badness 3428) in paragraph at lines 483--483
-[]\T1/stix/m/n/12 Osvaldo Maria Gras-selli, Laura Menini,
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 483--483
-[]\T1/stix/m/n/12 Philip R. K. Turn-bull et al. ``Ori-gins of
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 483--483
-\T1/stix/m/n/12 Pupil-lary Hip-pus in the Au-to-nomic Ner-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[10
-
-]
+[10]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 490.
-) 
-AED: lastpage setting LastPage
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 544.
+ (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2000,34 +2019,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [11
 
 
-] (./report_reflex.aux)
+]) 
+AED: lastpage setting LastPage
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12] (./report_reflex.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'report_reflex.run.xml'.
 \openout1 = `report_reflex.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46642 strings out of 478579
- 1072776 string characters out of 5857457
- 1723588 words of memory out of 5000000
- 63778 multiletter control sequences out of 15000+600000
- 536900 words of font info for 203 fonts, out of 8000000 for 9000
+ 47670 strings out of 478579
+ 1084210 string characters out of 5857457
+ 2141071 words of memory out of 5000000
+ 64796 multiletter control sequences out of 15000+600000
+ 540579 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,18n,97p,1883b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,18n,97p,1883b,1958s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
-ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2021/texmf-dis
-t/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/font
-s/type1/public/stix/STIXGeneral-BoldItalic.pfb><c:/texlive/2021/texmf-dist/font
-s/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/ty
-pe1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1
-/public/cm-super/sftt1095.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm
--super/sftt1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sft
-t1440.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><
-c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/
-2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on report_reflex.pdf (11 pages, 2759888 bytes).
+ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021/texmf-dis
+t/fonts/enc/dvips/stix/stix-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
+ix/STIXGeneral-BoldItalic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
+ix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/S
+TIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/
+sftt0800.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.p
+fb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/tex
+live/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2021/
+texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb><c:/texlive/2021/texmf-dist
+/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/texmf-dist/fonts/type
+1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
+ix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mat
+htt.pfb>
+Output written on report_reflex.pdf (12 pages, 3139878 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
+ 600 PDF objects out of 1000 (max. 8388607)
+ 342 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
