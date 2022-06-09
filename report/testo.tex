@@ -451,7 +451,7 @@ In particolare, per un guadagno più basso ($\beta =50$) il sistema smette di os
 
 Tale sottosmorzamento non è presente per guadagni più alti dove l'angolo di equilibrio diventa molto più basso ma la risposta inizia a diventare oscillatoria. In particolare, per un guadagno di 250 la risposta inizia a divergere e il sistema risulta instabile. 
 
-In particolare, dall'analisi di stabilità si identifica il guadagno limite a 202,62. Tale valore viene identificato considerando l'espansione di Padè per l'esponenziale è analizzandole il luogo delle radici (\cref{fig:rootlocus_stretch}) o tramite il comando Matlab \texttt{margin()} che restituisce il diagramma di Bode e il guadagno limite (\cref{fig:margin_stretch})
+Dall'analisi di stabilità si identifica il guadagno limite a 202,62. Tale valore viene identificato considerando l'espansione di Padè per l'esponenziale e analizzandole il luogo delle radici (\cref{fig:rootlocus_stretch}) o tramite il comando Matlab \texttt{margin()} che restituisce il diagramma di Bode e il guadagno limite (\cref{fig:margin_stretch})
 
 Infine, un'ulteriore analisi (\cref{fig:stretch_td}) mostra come al crescere del delay della risposta si riduce il valore del guadagno limite. Per cui ne risulta che, fissando $\beta$ tra le diverse simulazioni al valore di default ($\beta=100$) il sistema risulterà instabile per delay superiori a 0.1. 
 
@@ -463,7 +463,7 @@ Infine, un'ulteriore analisi (\cref{fig:stretch_td}) mostra come al crescere del
 Per analizzare la risposta del riflesso pupillare viene considerata un'onda sinusoidale di frequenza $f=2\pi *0.7 \text{ [rad] }= 0.7 \text{ Hz}$ \cite{stark_servoanalytic_1957}. 
 L'analisi viene condotta da 0 a 10 s, analizzando la risposta in termini di dilatazione pupillare. 
 
-Il modello Simulik è presente in \cref{labelfig:simulinkpupillary}. Oltre al diagramma a blocchi precedente illustrato (\cref{fig:pupillary_block}) sono presenti due ingressi, sinusoidale e step, utilizzati singolarmente (commentando o l'uno o l'altro), il blocc \texttt{fcn} analogo al caso del riflesso da stiramento e descritto in \cref{sec:fcn}, uno \texttt{scope} per visualizzare gli andamenti e il blocco per salvare i dati.
+Il modello Simulik è presente in \cref{fig:simulinkpupillary}. Oltre al diagramma a blocchi precedente illustrato (\cref{fig:pupillary_block}) sono presenti due ingressi, sinusoidale e step, utilizzati singolarmente (commentando o l'uno o l'altro), il blocco \texttt{fcn} analogo al caso del riflesso da stiramento e descritto in \cref{sec:fcn}, uno \texttt{scope} per visualizzare gli andamenti e il blocco per salvare i dati.
 
 
 
@@ -499,7 +499,7 @@ Il modello Simulik è presente in \cref{labelfig:simulinkpupillary}. Oltre al di
 	\caption{Confronto della risposta al variare del guadagno per ingresso sinusoidale (a) e a gradino (b). Si vede come per valori di $K$ superiori a $K_{lim}=1.852$ il sistema risulta instabile e la risposta diverge.}
 \end{figure*}
 
-Ad ingresso sinusoidale corrisponde un'analoga risposta che, per valori di guadagno sufficientemente bassi, insegue l'ingresso con un'oscillazione analoga, seppur sfasata.
+Ad ingresso sinusoidale corrisponde un'analoga risposta che, per valori di guadagno sufficientemente bassi, insegue l'ingresso con un'oscillazione conforme, seppur sfasata.
 Tale oscillazione risente di un effetto di distorsione per valori del guadagno vicini al valore limite fino a risultare instabile e divergente per valori superiori al valore limite. In particolare, in \cref{fig:pup_gain}, vengono confrontati 5 differenti valori di $K$ e le risposte risultanti dallo stesso ingresso. 
 
 Inoltre, è possibile osservare come l'oscillazione instabile risulta a frequenza nettamente maggiore di quella dell'ingresso. 
@@ -512,7 +512,7 @@ Trascurando il valore di default del guadagno, per il quale la risposta risulta 
 
 Analizzando la frequenza di oscillazione ($\in [0.8;\:1.1]$ Hz) questa risulta simile ai valori tipicamente indicati in letteratura per il fenomeno dell'hippus \cite{turnbull_origins_2017} e anche alla frequenza critica del sistema (7.13 rad/s).
 
-L'hippus è un particolare fenomeno di movimento ritmico di dilatazione e contrazione pupillare che si instaura in condizioni patologiche come meningiti acute, epilessia o altre malattie cerebrali. Può quindi essere visto come un eccessivo guadagno del sistema, fino a portarlo in instabilità. 
+L'hippus è un particolare fenomeno di movimento ritmico di dilatazione e contrazione pupillare che si instaura in condizioni patologiche come meningiti acute, epilessia o altre malattie cerebrali. Può quindi essere visto come un eccessivo guadagno del sistema, tale da portarlo in instabilità. 
 
 
 
@@ -539,14 +539,14 @@ Il materiale è disponibile alla repository online del progetto: \url{https://gi
 \onecolumn
 \section*{Appendice}
 
-Segue la descrizione di due parti importanti per l'implementazione del modello e la produzione dei grafici.
+Segue la descrizione di alcune parti importanti per l'implementazione del modello e la produzione dei grafici.
 
 \subsection{Blocco \texttt{fcn}}
 \label{sec:fcn}
 
 Entrambi i modelli sfruttando il blocco \texttt{fcn} per automatizzare alcune funzionalità. 
 
-In particolare tale blocco funzione calcola il guadagno limite e lo confronta con il guadagno attuale (settato tramite le dashboard). A seconda che sia maggiore o minore colora di display di rosso e verde. Per poterlo fare, a differenza di Matlab classico, è necessario dichiarare le funzioni come estrinseche ed inizializzare le nuove variabili, dichiarandone anche la classe.
+In particolare tale blocco funzione calcola il guadagno limite e lo confronta con il guadagno attuale (settato tramite le dashboard). A seconda che sia maggiore o minore colora il display di rosso o verde. Per poterlo fare, a differenza di Matlab classico, è necessario dichiarare le funzioni come estrinseche ed inizializzare le nuove variabili, dichiarandone anche la classe.
 
 Inoltre, il blocco permette anche di regolare i range dello slider colorato dividendolo in tre regioni (verde, arancio e rosso) e aggiornarlo ad ogni simulazione.
 
@@ -593,19 +593,19 @@ end
 
 \subsection{Output}
 
-Il blocco fa anche da \textit{pass trough} per la variabile \texttt{u} ovvero il guadagno attuale così che questo possa essere salvato, a fine simulazione, nel blocco risultati, senza dover aspettare l'aggiornamento delle variabili (che avverrebbe alla simulazione successiva).
+Il blocco fa anche da \textit{pass through} per la variabile \texttt{u} ovvero il guadagno attuale così che questo possa essere salvato, a fine simulazione, nel blocco risultati, senza dover aspettare l'aggiornamento delle variabili (che avverrebbe alla simulazione successiva).
 
 Il blocco di output viene rinominato di simulazione in simulazione tramite una funzione di callback, propria del modello, che si attiva ogni volta che viene inizializzata la simulazione. Tramite funzione di callback fa si che il file venga salvato nella cartella \texttt{../results/} e che il nome contenga la concatenazione del nome del parametro e del suo valore, ad esempio:
 
 \begin{equation*}
-	\mathtt{results/}+\mathtt{gain}+\{\mathtt{gain}+\}+\mathtt{Td}+\{\mathtt{Td}+\}+\mathtt{.mat}
+	'\mathtt{results/}+\mathtt{gain}+\{\mathtt{gain}\}+\mathtt{Td}+\{\mathtt{Td}\}+\mathtt{.mat}'
 \end{equation*}
 
 I risultati sono salvati come Timeseries.
 
-\subsection{Plot}
+\subsection{Post processing}
 
-All'interno dei risultati sono presenti, oltre l'input e la risposta, anche i valori dei parametri. Questi vengono utilizzati per le legende e i titoli dei grafici andando a caricare, file per file, una struttura \texttt{data{}} con i seguenti campi:
+All'interno dei risultati sono presenti, oltre l'input e la risposta, anche i valori dei parametri. Questi vengono utilizzati per le legende e i titoli dei grafici andando a caricare, file per file, all'interno di una struttura \texttt{data\{\}} con i seguenti campi:
 
 \begin{figure}[h!]
 \begin{lstlisting}[language=matlab,style=mystyle]

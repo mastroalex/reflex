@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  9 JUN 2022 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  9 JUN 2022 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1895,8 +1895,9 @@ Underfull \hbox (badness 5802) in paragraph at lines 452--453
  []
 
 
-LaTeX Warning: Reference `labelfig:simulinkpupillary' on page 1 undefined on in
-put line 466.
+Underfull \hbox (badness 1939) in paragraph at lines 466--467
+\T1/stix/m/n/12 sono pre-senti due in-gressi, si-nu-soidale e step,
+ []
 
 <../code/pupillary/sine/figs/rlocus.pdf, id=390, 366.36874pt x 294.09875pt>
 File: ../code/pupillary/sine/figs/rlocus.pdf Graphic file (type pdf)
@@ -2030,19 +2031,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12] (./report_reflex.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'report_reflex.run.xml'.
 \openout1 = `report_reflex.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47670 strings out of 478579
- 1084210 string characters out of 5857457
- 2141071 words of memory out of 5000000
- 64796 multiletter control sequences out of 15000+600000
- 540579 words of font info for 207 fonts, out of 8000000 for 9000
+ 47668 strings out of 478579
+ 1084163 string characters out of 5857457
+ 2141038 words of memory out of 5000000
+ 64794 multiletter control sequences out of 15000+600000
+ 537850 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,97p,1883b,1958s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
@@ -2060,7 +2058,7 @@ texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb><c:/texlive/2021/texmf-dist
 1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
 ix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mat
 htt.pfb>
-Output written on report_reflex.pdf (12 pages, 3139878 bytes).
+Output written on report_reflex.pdf (12 pages, 3140158 bytes).
 PDF statistics:
  600 PDF objects out of 1000 (max. 8388607)
  342 compressed objects within 4 object streams
